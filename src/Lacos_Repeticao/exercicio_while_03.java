@@ -1,5 +1,6 @@
 package Lacos_Repeticao;
 
+
 import java.util.Scanner;
 
 public class exercicio_while_03 {
@@ -8,6 +9,7 @@ public class exercicio_while_03 {
  Scanner read = new Scanner(System.in);
  
  int numero, somaIdMenor=0, somaIdMaior=0; 
+ 
  System.out.println("\n Digite a idade");
  numero = read.nextInt(); 
  
@@ -18,8 +20,8 @@ public class exercicio_while_03 {
 	 System.out.println("\n Digite a idade: ");
 	 numero = read.nextInt();
 	 
- } System.out.println("\n Total de pessoa maiores de 50 anos: " + somaIdMaior);
-   System.out.println("\n Total de pessoa maiores de 21 anos: " + somaIdMenor);
+ } System.out.println("\n Total de pessoas maiores de 50 anos: " + somaIdMaior);
+   System.out.println("\n Total de pessoas maiores de 21 anos: " + somaIdMenor);
       
 
 }
