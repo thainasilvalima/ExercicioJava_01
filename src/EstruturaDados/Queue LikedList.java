@@ -1,8 +1,11 @@
-public class Main {
-    
+   package EstruturaDados;
+   
     import java.util.Iterator;
     import java.util.Scanner;
     import java.util.LinkedList;
+
+public class Main {   
+    
 
     public static void name(String []) args throws IOException {
 
